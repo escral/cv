@@ -11,20 +11,25 @@
         "dist"
     ],
     "scripts": {
-        "pub": "npx tmg-version -s && npm publish",
+        "dev": "vite src",
         "build": "vite build",
         "test": "vitest",
         "test:types": "vitest --typecheck.only"
     },
     "devDependencies": {
-        "@tmg/lint": "^2.0",
-        "@tmg/versioning": "^1.6",
+        "@escral/lint": "^2.0.10",
+        "@tailwindcss/postcss": "^4.1.13",
         "@types/node": "^22.10",
+        "postcss": "^8.5.6",
+        "tailwindcss": "^4.1.13",
         "vite": "^6.0",
-        "vite-plugin-dts": "^4.3",
         "vitest": "^2.1"
     },
     "engines": {
         "node": ">=18.0"
+    },
+    "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610",
+    "dependencies": {
+        "postcss-nested": "^7.0.2"
     }
 }

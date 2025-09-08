@@ -1,1 +1,1 @@
-# Vite + Vitest package skeleton
+# CV PDF Generator
