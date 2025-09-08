@@ -1,0 +1,30 @@
+{
+    "name": "@tmg/package-template",
+    "version": "0.0.0",
+    "license": "UNLICENSED",
+    "type": "module",
+    "exports": {
+        ".": "./dist/index.js"
+    },
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "pub": "npx tmg-version -s && npm publish",
+        "build": "vite build",
+        "test": "vitest",
+        "test:types": "vitest --typecheck.only"
+    },
+    "devDependencies": {
+        "@tmg/lint": "^2.0",
+        "@tmg/versioning": "^1.6",
+        "@types/node": "^22.10",
+        "vite": "^6.0",
+        "vite-plugin-dts": "^4.3",
+        "vitest": "^2.1"
+    },
+    "engines": {
+        "node": ">=18.0"
+    }
+}
