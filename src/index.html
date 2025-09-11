@@ -4,197 +4,247 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CV</title>
-    <link href="assets/styles.pcss" rel="stylesheet"></head>
+    <link href="assets/styles.pcss" rel="stylesheet">
+</head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <body>
-    <div class="page cv">
-        <header class="cv__header header">
-            <h1 class="header__name">Alexander Topalo</h1>
-            <p class="header__title">Full-Stack Web Developer</p>
-            <div class="header__contacts contacts">
-                <a href="mailto:topaloalexander@gmail.com" class="contacts__item contacts__item--email">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail-icon lucide-mail"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
-                    topaloalexander@gmail.com
-                </a>
-                <a href="tel:+37376703370" class="contacts__item contacts__item--phone">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-call-icon lucide-phone-call"><path d="M13 2a9 9 0 0 1 9 9"/><path d="M13 6a5 5 0 0 1 5 5"/><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg>
-                    +(373) 76 70 33 70
-                </a>
-                <span class="contacts__item contacts__item--address">
+<div class="page cv">
+    <header class="cv__header header">
+        <h1 class="header__name">Alexander Topalo</h1>
+        <p class="header__title">Full-Stack Web Developer</p>
+        <div class="header__contacts contacts">
+            <a href="mailto:topaloalexander@gmail.com" class="contacts__item contacts__item--email">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail-icon lucide-mail">
+                    <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/>
+                    <rect x="2" y="4" width="20" height="16" rx="2"/>
+                </svg>
+                topaloalexander@gmail.com
+            </a>
+            <a href="tel:+37376703370" class="contacts__item contacts__item--phone">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-call-icon lucide-phone-call">
+                    <path d="M13 2a9 9 0 0 1 9 9"/>
+                    <path d="M13 6a5 5 0 0 1 5 5"/>
+                    <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/>
+                </svg>
+                +(373) 76 70 33 70
+            </a>
+            <span class="contacts__item contacts__item--address">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin-icon lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
-                    Chisinau
+                    Chisinau, Moldova
                 </span>
+        </div>
+    </header>
+
+    <main class="cv__main">
+        <section class="cv__section section section--employment">
+            <h2 class="section__title">Employment</h2>
+
+            <article class="section__item job">
+                <div class="job__header">
+                    <h3 class="job__title">Full Stack Web Developer/Director</h3>
+                    <span class="job__period">2018 - Present</span>
+                </div>
+                <p class="job__company">Revys Web SRL</p>
+                <div class="job__details">
+                    <h4 class="job__subtitle">Technologies stack:</h4>
+                    <p>Laravel, Vue.js, Nuxt.js, Node.js, Redis, Git, Tailwind CSS, Laravel Mix, Nginx, Cordova, Chrome
+                        Extensions, SVG, Canvas</p>
+
+                    <h4 class="job__subtitle">Responsibilities:</h4>
+                    <ul>
+                        <li>Developing online stores, web-apps, chrome extensions, content management systems, SaaS
+                            projects
+                        </li>
+                        <li>Communicating with clients</li>
+                        <li>Project Management</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="section__item job">
+                <div class="job__header">
+                    <h3 class="job__title">Full Stack Web Developer</h3>
+                    <span class="job__period">2018</span>
+                </div>
+                <p class="job__company">Prestacall SRL</p>
+                <div class="job__details">
+                    <h4 class="job__subtitle">Technologies stack:</h4>
+                    <p class="job__technologies">Laravel, Vue.js, Git, Unit & Feature tests</p>
+                    <h4 class="job__subtitle">Responsibilities:</h4>
+                    <ul class="job__responsibilities">
+                        <li class="job__responsibility">Building CRM system: application for medical centers (planning,
+                            notifications, invoices, customers, contracts, logistics)
+                        </li>
+                        <li class="job__responsibility">Building SPA application based on VueJS</li>
+                        <li class="job__responsibility">Web application testing</li>
+                        <li class="job__responsibility">Leading a team of 4 people</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="section__item job">
+                <div class="job__header">
+                    <h3 class="job__title">Full Stack Web Developer</h3>
+                    <span class="job__period">2014 - 2017</span>
+                </div>
+                <p class="job__company">Inovatica Grup SRL</p>
+                <div class="job__details">
+                    <h4 class="job__subtitle">Technologies stack:</h4>
+                    <p class="job__technologies">PHP, JavaScript, jQuery, HTML, SCSS</p>
+                    <h4 class="job__subtitle">Responsibilities:</h4>
+                    <ul class="job__responsibilities">
+                        <li class="job__responsibility">Developing online stores</li>
+                        <li class="job__responsibility">Bug tracking and fixing</li>
+                        <li class="job__responsibility">Data processing</li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+
+        <hr>
+
+        <section class="cv__section section section--education">
+            <h2 class="section__title">Education</h2>
+
+            <article class="section__item textblock">
+                <div class="textblock__header">
+                    <h3 class="textblock__title">Moldova State University</h3>
+                    <span class="textblock__period">2017 - 2020</span>
+                </div>
+                <div class="textblock__details">
+                    Studies in Computer Science and Mathematics
+
+                    <ul>
+                        <li>Participated in organized hackathons</li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+
+        <hr>
+
+        <section class="cv__section section section--courses">
+            <h2 class="section__title">Courses</h2>
+
+            <article class="section__item textblock">
+                <div class="textblock__header">
+                    <h3 class="textblock__title">Frontend Masters</h3>
+                    <span class="textblock__period">2024</span>
+                </div>
+                <div class="textblock__details">
+                    Developer Productivity<br>
+                    JavaScript Performance
+                </div>
+            </article>
+
+            <article class="section__item textblock">
+                <div class="textblock__header">
+                    <h3 class="textblock__title">Laracasts</h3>
+                    <span class="textblock__period">2018</span>
+                </div>
+                <div class="textblock__details">
+                    357+ lessons<br>
+                    80+ hours
+                </div>
+            </article>
+
+            <article class="section__item textblock">
+                <div class="textblock__header">
+                    <h3 class="textblock__title">Developer Conferences</h3>
+                    <span class="textblock__period">2018 - Present</span>
+                </div>
+                <div class="textblock__details">
+                    ViteConf, Laracon, CodeCamp, GameFactory
+                </div>
+            </article>
+        </section>
+
+        <hr>
+
+        <section class="cv__section section section--achievements">
+            <h2 class="section__title">Achievements</h2>
+            <article class="section__item textblock">
+                <div class="textblock__header">
+                    <p class="textblock__title font-normal">1st place at Starnet StudySmart Hackathon</p>
+                    <span class="textblock__period">2018</span>
+                </div>
+            </article>
+        </section>
+
+        <hr>
+
+        <section class="cv__section section section--motivation">
+            <h2 class="section__title">My motivation</h2>
+
+            <div class="textblock">
+                <div class="textblock__details">
+                    <p>At the age of 13, I plunged into the world of programming. I had to solve the
+                        problems myself, looking for solutions on the forums and by trial and error. I have always strived to do
+                        practical things that will help me, or someone else. Over the years of programming, I have created many
+                        applications, learned many technologies and encountered a lot of challenging situations. And now my main
+                        goal is to work on really interesting and useful projects, to bring system and automation into our
+                        lives.</p>
+                </div>
             </div>
-        </header>
+        </section>
+    </main>
 
-        <main class="cv__main">
-            <section class="cv__section section section--employment">
-                <h2 class="section__title">Employment</h2>
+    <aside class="cv__sidebar sidebar">
+        <section class="sidebar__section personal">
+            <h2 class="personal__title section__title">Personal details</h2>
+            <div class="personal__item">
+                <h3 class="personal__label">Date of birth</h3>
+                <p class="personal__value">October 19th, 1998</p>
+            </div>
+            <div class="personal__item">
+                <h3 class="personal__label">GitHub</h3>
+                <a href="https://github.com/escral" target="_blank" class="personal__value personal__value--link">github.com/escral</a>
+            </div>
+            <div class="personal__item">
+                <h3 class="personal__label">Facebook</h3>
+                <a href="https://facebook.com/Topalo" target="_blank" class="personal__value personal__value--link">facebook.com/Topalo</a>
+            </div>
+        </section>
 
-                <article class="section__item job break-inside-avoid">
-                    <div class="job__header">
-                        <h3 class="job__title">Full Stack Web Developer/Director</h3>
-                        <span class="job__period">2018 - Present</span>
-                    </div>
-                    <p class="job__company">Revys Web SRL</p>
-                    <div class="job__details">
-                        <h4 class="job__subtitle">Technologies stack:</h4>
-                        <p>Laravel, Vue.js, Nuxt.js, Node.js, Redis, Git, Tailwind CSS, Laravel Mix, Nginx, Cordova, Chrome Extensions, SVG, Canvas</p>
+        <section class="sidebar__section languages">
+            <h2 class="languages__title section__title">Languages</h2>
+            <ul class="languages__list">
+                <li class="languages__item">Russian (Native)</li>
+                <li class="languages__item">English (B2)</li>
+                <li class="languages__item">Romanian</li>
+            </ul>
+        </section>
 
-                        <h4 class="job__subtitle">Responsibilities:</h4>
-                        <ul>
-                            <li>Developing online stores, web-apps, chrome extensions, content management systems, SaaS projects</li>
-                            <li>Communicating with clients</li>
-                            <li>Project Management</li>
-                        </ul>
-                    </div>
-                </article>
+        <section class="sidebar__section skills">
+            <h2 class="skills__title section__title">Skills</h2>
+            <ul>
+                <li>Vim Motions, i3</li>
+                <li>JavaScript/TypeScript</li>
+                <li>PHP, NodeJS</li>
+                <li>HTML, CSS</li>
+                <li>UI/UX</li>
+            </ul>
+        </section>
 
-                <article class="section__item job">
-                    <div class="job__header">
-                        <h3 class="job__title">Full Stack Web Developer</h3>
-                        <span class="job__period">2018</span>
-                    </div>
-                    <p class="job__company">Prestacall SRL</p>
-                    <div class="job__details">
-                        <h4 class="job__subtitle">Technologies stack:</h4>
-                        <p class="job__technologies">Laravel, Vue.js, Git, Unit & Feature tests</p>
-                        <h4 class="job__subtitle">Responsibilities:</h4>
-                        <ul class="job__responsibilities">
-                            <li class="job__responsibility">Building CRM system: application for medical centers (planning, notifications, invoices, customers, contracts, logistics)</li>
-                            <li class="job__responsibility">Building SPA application based on VueJS</li>
-                            <li class="job__responsibility">Web application testing</li>
-                            <li class="job__responsibility">Leading a team of 4 people</li>
-                        </ul>
-                    </div>
-                </article>
+        <section class="sidebar__section qualities">
+            <h2 class="qualities__title section__title">Qualities</h2>
+            <ul class="qualities__list">
+                <li class="qualities__item">Responsibility</li>
+                <li class="qualities__item">Healthy perfectionism</li>
+            </ul>
+        </section>
 
-                <article class="section__item job">
-                    <div class="job__header">
-                        <h3 class="job__title">Full Stack Web Developer</h3>
-                        <span class="job__period">2014 - 2017</span>
-                    </div>
-                    <p class="job__company">Inovatica Grup SRL</p>
-                    <div class="job__details">
-                        <h4 class="job__subtitle">Technologies stack:</h4>
-                        <p class="job__technologies">PHP, JavaScript, jQuery, HTML, SCSS</p>
-                        <h4 class="job__subtitle">Responsibilities:</h4>
-                        <ul class="job__responsibilities">
-                            <li class="job__responsibility">Developing online stores</li>
-                            <li class="job__responsibility">Bug tracking and fixing</li>
-                            <li class="job__responsibility">Data processing</li>
-                        </ul>
-                    </div>
-                </article>
-            </section>
-
-            <section class="cv__section section section--education">
-                <h2 class="section__title">Education</h2>
-
-                <article class="section__item education">
-                    <div class="education__header">
-                        <h3 class="education__institution">Moldova State University</h3>
-                        <span class="education__period">2017 - 2020</span>
-                    </div>
-                    <ul class="education__details">
-                        <li class="education__detail">Studies in Computer Science and Mathematics</li>
-                        <li class="education__detail">Participated in organized hackathons</li>
-                    </ul>
-                </article>
-            </section>
-
-            <section class="cv__section section section--courses">
-                <h2 class="section__title">Courses</h2>
-
-                <article class="section__item course">
-                    <div class="course__header">
-                        <h3 class="course__name">Laracasts</h3>
-                        <span class="course__year">2018</span>
-                    </div>
-                    <ul class="course__stats">
-                        <li class="course__stat">357+ lessons</li>
-                        <li class="course__stat">80+ hours</li>
-                    </ul>
-                </article>
-
-                <article class="section__item course">
-                    <div class="course__header">
-                        <h3 class="course__name">Developer Conferences</h3>
-                        <span class="course__year">2018</span>
-                    </div>
-                    <p class="course__description">CodeCamp, GameFactory</p>
-                </article>
-            </section>
-
-            <section class="cv__section section section--achievements">
-                <h2 class="section__title">Achievements</h2>
-                <article class="section__item achievement">
-                    <p class="achievement__text">1st place at Starnet StudySmart Hackathon</p>
-                    <span class="achievement__year">2018</span>
-                </article>
-            </section>
-
-            <section class="cv__section section section--motivation">
-                <h2 class="section__title">My motivation</h2>
-                <p class="section__text">At the age of 13, I plunged into the world of programming. I had to solve the problems myself, looking for solutions on the forums and by trial and error. I have always strived to do practical things that will help me, or someone else. Over the years of programming, I have created many applications, learned many technologies and encountered a lot of difficult situations. And now my main goal is to work on really interesting and useful projects, to bring system and automation into our lives.</p>
-            </section>
-        </main>
-
-        <aside class="cv__sidebar sidebar">
-            <section class="sidebar__section personal">
-                <h2 class="personal__title section__title">Personal details</h2>
-                <div class="personal__item">
-                    <h3 class="personal__label">Date of birth</h3>
-                    <p class="personal__value">October 19th, 1998</p>
-                </div>
-                <div class="personal__item">
-                    <h3 class="personal__label">GitHub</h3>
-                    <a href="https://github.com/escral" target="_blank" class="personal__value personal__value--link">github.com/inwebcomp</a>
-                </div>
-                <div class="personal__item">
-                    <h3 class="personal__label">Facebook</h3>
-                    <a href="https://facebook.com/Topalo" target="_blank" class="personal__value personal__value--link">facebook.com/Topalo</a>
-                </div>
-            </section>
-
-            <section class="sidebar__section languages">
-                <h2 class="languages__title section__title">Languages</h2>
-                <ul class="languages__list">
-                    <li class="languages__item">Russian (Native)</li>
-                    <li class="languages__item">English (B2)</li>
-                    <li class="languages__item">Romanian</li>
-                </ul>
-            </section>
-
-            <section class="sidebar__section skills">
-                <h2 class="skills__title section__title">Skills</h2>
-                <ul class="skills__list">
-                    <li class="skills__item">JavaScript</li>
-                    <li class="skills__item">PHP</li>
-                    <li class="skills__item">HTML & CSS</li>
-                    <li class="skills__item">UI/UX</li>
-                </ul>
-            </section>
-
-            <section class="sidebar__section qualities">
-                <h2 class="qualities__title section__title">Qualities</h2>
-                <ul class="qualities__list">
-                    <li class="qualities__item">Responsibility</li>
-                    <li class="qualities__item">Healthy perfectionism</li>
-                </ul>
-            </section>
-
-            <section class="sidebar__section hobbies">
-                <h2 class="hobbies__title section__title">Hobbies</h2>
-                <ul class="hobbies__list">
-                    <li class="hobbies__item">Bouldering (climbing)</li>
-                    <li class="hobbies__item">Basketball</li>
-                    <li class="hobbies__item">Chess</li>
-                </ul>
-            </section>
-        </aside>
-    </div>
+        <section class="sidebar__section hobbies">
+            <h2 class="hobbies__title section__title">Hobbies</h2>
+            <ul class="hobbies__list">
+                <li class="hobbies__item">Bouldering (climbing)</li>
+                <li class="hobbies__item">Basketball</li>
+                <li class="hobbies__item">Chess</li>
+            </ul>
+        </section>
+    </aside>
+</div>
 </body>
 </html>
